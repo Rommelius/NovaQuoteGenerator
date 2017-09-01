@@ -15,32 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0C5A5FD16C645027DD2939B5FA0E681C"
-        "OwnerKey" = "8:_FA6EA2B57667BA2AB1313AD35C213AEB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0C5A5FD16C645027DD2939B5FA0E681C"
-        "OwnerKey" = "8:_F06B289DA6BC4A4383FD124826F21495"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_173925355E17461981B30D240D1A552C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2051B41DDDB53155A0B0BCC1928044B5"
-        "OwnerKey" = "8:_0C5A5FD16C645027DD2939B5FA0E681C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5C1370D43E33451E9D7265F4B874920B"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_40B5DD50C94FFA2EC9F7735A350FAA6E"
+        "OwnerKey" = "8:_A7F414F7E577479598278053E6041E6E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -57,50 +39,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E25E2D3192A64E67A6A563A1B379488E"
+        "MsmKey" = "8:_A8F01742896324B6D6E505BCFEBD3DBC"
+        "OwnerKey" = "8:_A7F414F7E577479598278053E6041E6E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A8F01742896324B6D6E505BCFEBD3DBC"
+        "OwnerKey" = "8:_40B5DD50C94FFA2EC9F7735A350FAA6E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BF4B8691C1584989889CF87388AE67B7"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F06B289DA6BC4A4383FD124826F21495"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FA6EA2B57667BA2AB1313AD35C213AEB"
-        "OwnerKey" = "8:_F06B289DA6BC4A4383FD124826F21495"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2051B41DDDB53155A0B0BCC1928044B5"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FA6EA2B57667BA2AB1313AD35C213AEB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F06B289DA6BC4A4383FD124826F21495"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5C1370D43E33451E9D7265F4B874920B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0C5A5FD16C645027DD2939B5FA0E681C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -113,6 +65,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_77F9365D6CCEA1BB15513838907D792F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_40B5DD50C94FFA2EC9F7735A350FAA6E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A8F01742896324B6D6E505BCFEBD3DBC"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -177,6 +141,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -207,37 +179,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0C5A5FD16C645027DD2939B5FA0E681C"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_0C5A5FD16C645027DD2939B5FA0E681C"
-                    {
-                    "Name" = "8:office.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:office.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_173925355E17461981B30D240D1A552C"
             {
             "SourcePath" = "8:..\\QuoteGenerator\\Nova Biomedical Quote TEMPLATE.docx"
@@ -258,20 +199,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2051B41DDDB53155A0B0BCC1928044B5"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_40B5DD50C94FFA2EC9F7735A350FAA6E"
             {
             "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MySql.Web, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_2051B41DDDB53155A0B0BCC1928044B5"
+                    "_40B5DD50C94FFA2EC9F7735A350FAA6E"
                     {
-                    "Name" = "8:stdole.dll"
+                    "Name" = "8:MySql.Web.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:stdole.dll"
+            "SourcePath" = "8:MySql.Web.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
@@ -287,37 +228,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5C1370D43E33451E9D7265F4B874920B"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools.Word.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_5C1370D43E33451E9D7265F4B874920B"
-                    {
-                    "Name" = "8:Microsoft.Office.Tools.Word.v4.0.Utilities.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\ReferenceAssemblies\\v4.0\\Microsoft.Office.Tools.Word.v4.0.Utilities.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_77F9365D6CCEA1BB15513838907D792F"
@@ -351,71 +261,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E25E2D3192A64E67A6A563A1B379488E"
-            {
-            "SourcePath" = "8:..\\..\\NovaBiomedicalSoftware\\NovaBiomedicalSoftware\\icon_Hdn_icon.ico"
-            "TargetName" = "8:icon_Hdn_icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F06B289DA6BC4A4383FD124826F21495"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A8F01742896324B6D6E505BCFEBD3DBC"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F06B289DA6BC4A4383FD124826F21495"
+                    "_A8F01742896324B6D6E505BCFEBD3DBC"
                     {
-                    "Name" = "8:Microsoft.Office.Interop.Word.dll"
+                    "Name" = "8:MySql.Data.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Visual Studio Tools for Office\\PIA\\Office15\\Microsoft.Office.Interop.Word.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FA6EA2B57667BA2AB1313AD35C213AEB"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_FA6EA2B57667BA2AB1313AD35C213AEB"
-                    {
-                    "Name" = "8:Microsoft.Vbe.Interop.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Vbe.Interop.dll"
+            "SourcePath" = "8:MySql.Data.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
@@ -431,6 +290,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BF4B8691C1584989889CF87388AE67B7"
+            {
+            "SourcePath" = "8:..\\QuoteGenerator\\icon_Hdn_icon.ico"
+            "TargetName" = "8:icon_Hdn_icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -450,7 +329,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_3850990EAB1E480582CF06F5DEC5042D"
                     {
-                    "Name" = "8:Nova Biomedical"
+                    "Name" = "8:Nova Biomedical Systems"
                     "AlwaysCreate" = "11:TRUE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -500,15 +379,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Nova Biomedical Quote Generator"
-        "ProductCode" = "8:{4D7F2D99-32D3-4E20-A6EB-1F8BE6E4082A}"
-        "PackageCode" = "8:{8F0564D9-F4FB-4200-A15A-D33800CB6B38}"
+        "ProductCode" = "8:{E3C2DC27-9570-435C-9D2C-216F3229CEDB}"
+        "PackageCode" = "8:{EB65059A-4734-41DB-875C-99862ACBCEC0}"
         "UpgradeCode" = "8:{64C4529B-25C9-42B1-8250-3FCA413E06A0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.0.0"
+        "ProductVersion" = "8:3.0"
         "Manufacturer" = "8:Nova Biomedical"
         "ARPHELPTELEPHONE" = "8:0404871129"
         "ARPHELPLINK" = "8:"
@@ -518,7 +397,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_E25E2D3192A64E67A6A563A1B379488E"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -632,7 +511,7 @@
             "Target" = "8:_A7F414F7E577479598278053E6041E6E"
             "Folder" = "8:_3850990EAB1E480582CF06F5DEC5042D"
             "WorkingFolder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
-            "Icon" = "8:_E25E2D3192A64E67A6A563A1B379488E"
+            "Icon" = "8:_BF4B8691C1584989889CF87388AE67B7"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7214BA68CB1C4FCB8A969BEABF969096"
@@ -646,7 +525,7 @@
             "Target" = "8:_A7F414F7E577479598278053E6041E6E"
             "Folder" = "8:_83E7FE16BF5C40F6B255C18D32143854"
             "WorkingFolder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
-            "Icon" = "8:_E25E2D3192A64E67A6A563A1B379488E"
+            "Icon" = "8:_BF4B8691C1584989889CF87388AE67B7"
             "Feature" = "8:"
             }
         }
@@ -1050,7 +929,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A7F414F7E577479598278053E6041E6E"
             {
-            "SourcePath" = "8:..\\QuoteGenerator\\obj\\Debug\\QuoteGenerator.exe"
+            "SourcePath" = "8:..\\QuoteGenerator\\obj\\Release\\QuoteGenerator.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_392C5F241CC5491EB64A7DE92DC406B0"
