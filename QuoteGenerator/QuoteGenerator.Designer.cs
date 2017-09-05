@@ -32,9 +32,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuoteGenerator));
             this.dataGrid = new System.Windows.Forms.DataGridView();
-            this.DescriptionColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.QuantityColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PriceColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -70,6 +67,9 @@
             this.totalPriceBox = new System.Windows.Forms.TextBox();
             this.deleteBtn = new System.Windows.Forms.Button();
             this.clientBox = new System.Windows.Forms.ComboBox();
+            this.DescriptionColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.QuantityColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PriceColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.quantityBox)).BeginInit();
             this.SuspendLayout();
@@ -89,29 +89,6 @@
             this.dataGrid.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridView1_RowsAdded);
             this.dataGrid.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataGridView1_RowsRemoved);
             this.dataGrid.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView1_KeyDown);
-            // 
-            // DescriptionColumn
-            // 
-            this.DescriptionColumn.HeaderText = "Description";
-            this.DescriptionColumn.Name = "DescriptionColumn";
-            this.DescriptionColumn.ReadOnly = true;
-            // 
-            // QuantityColumn
-            // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.QuantityColumn.DefaultCellStyle = dataGridViewCellStyle1;
-            this.QuantityColumn.HeaderText = "Quantity";
-            this.QuantityColumn.Name = "QuantityColumn";
-            this.QuantityColumn.ReadOnly = true;
-            // 
-            // PriceColumn
-            // 
-            dataGridViewCellStyle2.Format = "C2";
-            dataGridViewCellStyle2.NullValue = null;
-            this.PriceColumn.DefaultCellStyle = dataGridViewCellStyle2;
-            this.PriceColumn.HeaderText = "Price";
-            this.PriceColumn.Name = "PriceColumn";
-            this.PriceColumn.ReadOnly = true;
             // 
             // label1
             // 
@@ -498,9 +475,32 @@
             this.clientBox.Location = new System.Drawing.Point(195, 130);
             this.clientBox.Name = "clientBox";
             this.clientBox.Size = new System.Drawing.Size(240, 33);
-            this.clientBox.TabIndex = 19;
+            this.clientBox.TabIndex = 2;
             this.clientBox.SelectedIndexChanged += new System.EventHandler(this.clientBox_SelectedIndexChanged);
             this.clientBox.Leave += new System.EventHandler(this.clientBox_Leave);
+            // 
+            // DescriptionColumn
+            // 
+            this.DescriptionColumn.HeaderText = "Description";
+            this.DescriptionColumn.Name = "DescriptionColumn";
+            this.DescriptionColumn.ReadOnly = true;
+            // 
+            // QuantityColumn
+            // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.QuantityColumn.DefaultCellStyle = dataGridViewCellStyle1;
+            this.QuantityColumn.HeaderText = "Quantity";
+            this.QuantityColumn.Name = "QuantityColumn";
+            this.QuantityColumn.ReadOnly = true;
+            // 
+            // PriceColumn
+            // 
+            dataGridViewCellStyle2.Format = "C2";
+            dataGridViewCellStyle2.NullValue = null;
+            this.PriceColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            this.PriceColumn.HeaderText = "Price (each)";
+            this.PriceColumn.Name = "PriceColumn";
+            this.PriceColumn.ReadOnly = true;
             // 
             // QuoteGenerator
             // 
@@ -583,9 +583,6 @@
         private System.Windows.Forms.ComboBox descriptionBox;
         private System.Windows.Forms.Button addBtn;
         private System.Windows.Forms.NumericUpDown quantityBox;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DescriptionColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn QuantityColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PriceColumn;
         private System.Windows.Forms.Button submitBtn;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox subTotalPriceBox;
@@ -595,6 +592,9 @@
         private System.Windows.Forms.TextBox totalPriceBox;
         private System.Windows.Forms.Button deleteBtn;
         private System.Windows.Forms.ComboBox clientBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DescriptionColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn QuantityColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PriceColumn;
     }
 }
 
